@@ -336,3 +336,6 @@ h5 {
 	font-size: 18px;
 	text-align: justify;
 }
+#navbar-collapse {
+	border: 0px;
+}
