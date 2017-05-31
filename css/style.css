@@ -341,13 +341,13 @@ h5 {
 	border: 0px;
 	border-color: rgba(0,0,0,0);
 }
-#tournament-button img {
+#tournament-button {
   max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.#tournament-button:hover img {
+#tournament-button:hover {
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
