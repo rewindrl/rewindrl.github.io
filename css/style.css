@@ -336,3 +336,6 @@ h5 {
 	font-size: 18px;
 	text-align: justify;
 }
+#navbar-toggle {
+	padding: 9px 10px calc(9px+2%) 10px;	
+}
