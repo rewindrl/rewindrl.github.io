@@ -356,13 +356,14 @@ h5 {
 ::-webkit-scrollbar {
     height: 12px;
     width: 12px;
-    background: #313131;
+    background: #444;
 }
-
 ::-webkit-scrollbar-thumb {
     background: #777;
 }
-
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
 ::-webkit-scrollbar-corner {
-    background: #313131;
+    background: #444;
 }
