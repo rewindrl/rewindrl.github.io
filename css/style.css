@@ -360,9 +360,9 @@ h5 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #313131;
+    background: #777;
 }
 
 ::-webkit-scrollbar-corner {
-    background: #000;
+    background: #313131;
 }
