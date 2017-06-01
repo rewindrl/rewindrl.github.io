@@ -353,3 +353,16 @@ h5 {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #313131;
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
