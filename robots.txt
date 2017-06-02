@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /deliberatelyunwieldydocumentnametoavoidpeoplefindingthisaccidentally/
+Disallow: /deliberatelyunwieldydocumentnametoavoidpeoplefindingthisaccidentally.html/
 
 Sitemap: http://rewindrl.uk/sitemap.xml
