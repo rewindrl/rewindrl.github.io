@@ -153,12 +153,14 @@ a:focus{
 
 .section-title h2{ font-weight: 700;}
 button.btn,
-a.btn {
+a.btn,
+input.btn {
 	margin: 15px 5px;
 	transition: all 0.5s;
 }
 button.btn.btn-primary.my-btn,
-a.btn.btn-primary.my-btn {
+a.btn.btn-primary.my-btn,
+input.btn.btn-primary.my-btn {
 	background: #00D2FF;
 	border-color: transparent;
 	border-radius: 0px;
@@ -170,7 +172,8 @@ a.btn.btn-primary.my-btn {
 	font-weight: 600;
 }
 button.btn.btn-primary.my-btn:hover,
-a.btn.btn-primary.my-btn:hover{
+a.btn.btn-primary.my-btn:hover,
+input.btn.btn-primary.my-btn:hover{
 	background: #FFFFFF;
 	color: #00D2FF;
 	border-color: transparent;
@@ -366,4 +369,34 @@ h5 {
 }
 ::-webkit-scrollbar-corner {
     background: #444;
+}
+#feedback-form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vw;
+	min-width: 800px;
+	height: calc(100vh - 100px);
+}
+.form-element {
+	resize: none;
+	width: 100%;
+	padding: 10px;
+	margin: 5px;
+	background-color: #aaa;
+	border-color: #aaa;
+	border-style: solid;
+	color: #313131;
+	caret-color: #3e91a2;
+}
+.form-element:focus {
+    outline-color: #00D2FF;
+    outline-style: auto;
+    outline-width: 5px;
+}
+textarea.form-element {
+	height: 100%;
+	max-height: 80vh;
+}
+.form-button {
+	margin-left: 10px;
 }
