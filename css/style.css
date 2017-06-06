@@ -310,7 +310,7 @@ nav#tf-footer {
 	background-image: url(../img/discord.png);
 	width: 14px;
 	height: 14px;
-	background-position: 0px 2px;
+	background-position: 0px 1px;
 }
 #discordicon:hover {
 	background-image: url(../img/discord_blue.png);
