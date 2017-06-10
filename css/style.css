@@ -142,7 +142,7 @@ a:focus{
 
 #tf-tournaments{
 	background: #353535; 
-	padding: 5%  0 8% 0;
+	padding: 5% 0 0 0;
 	text-align: center;
 }
 
@@ -399,4 +399,7 @@ textarea.form-element {
 }
 .form-button {
 	margin-left: 10px;
+}
+.tournament-info {
+	padding: 20px 0 20px 0;
 }
