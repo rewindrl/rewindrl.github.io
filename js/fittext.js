@@ -40,4 +40,8 @@
 
   };
 
-})( jQuery );
+})( jQuery );-
+
+// Make sure the text is fitted on first load
+$(document).ready(do_on_load)
+$(window).bind('page:change', do_on_load)
