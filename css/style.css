@@ -410,10 +410,8 @@ textarea.form-element {
 #notif-banner {
 	background-color: #00D2FF;
 	color: #313131;
-	padding-left: 10%;
+	padding: 10px 10%;
 	font-weight: bold;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 #notif-banner p {
 	margin: 0px;
