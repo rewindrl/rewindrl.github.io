@@ -407,3 +407,21 @@ textarea.form-element {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+#notif-banner {
+	background-color: #00D2FF;
+	color: #313131;
+	padding-left: 10%;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#notif-banner p {
+	margin: 0px;
+}
+#notif-banner a {
+	color: #313131;
+	text-decoration: underline;
+}
+#notif-banner a:hover{
+	color: #ffffff;
+}
