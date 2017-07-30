@@ -96,6 +96,8 @@
 		<p>We're supporting RLXL, a Rocket League charity tournament on the 4th August! Get signed up <a href="http://smash.gg/RLXL-Open">here</a>!</p>
 	</div>
 	
+	<div id="notif-banner" class="twitch-banner"></div>
+	
     <div id="tf-home">
         <div class="overlay">
            <div id="sticky-anchor"></div>
@@ -166,6 +168,13 @@
     <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script>
+	$.get('https://api.twitch.tv/kraken/streams/a_bucketman?client_id=5j0r5b7qb7kro03fvka3o8kbq262wwm', function(data) {
+		if(data.indexOf("viewers") !== -1) {
+			$(".twitch-banner").append("<p>We're streaming a tournament LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
+		}
+	}, 'text');
+	</script>
 
     <!-- Javascripts
     ================================================== -->
