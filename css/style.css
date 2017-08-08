@@ -337,6 +337,7 @@ h5 {
 @media all and (orientation:portrait) {
 	#mobile-hide {
 		visibility: hidden;
+		display: none;
 	}
 }
 .RG-Info {
