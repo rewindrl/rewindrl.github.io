@@ -454,6 +454,7 @@ textarea.form-element {
 }
 .carousel {
 	text-align: center;
+	margin: auto;
 }
 #shop-info {
 	margin-top: 50px;
