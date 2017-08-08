@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300);
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
 body, html{
 	font-family: 'Raleway', sans-serif;
@@ -422,4 +423,35 @@ textarea.form-element {
 }
 #notif-banner a:hover{
 	color: #ffffff;
+}
+#buy-button {
+	padding-top: 100px;
+	text-align: center;
+}
+#buy-button td {
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#buy-button #button {
+	margin-top: 10px;
+}
+#buy-button table {
+	width: 100%;
+}
+#buy-button select {
+	color: #313131;
+	background-color: #aaa;
+	font-family: 'Roboto', sans-serif;
+}
+#buy-button select:focus {
+	background-color: #ddd;
+	outline: none;
+}
+#buy-button select options {
+	font-weight: bold;
+}
+#main-title {
+	margin-bottom: 30px;
+	margin-bottom: 30px;
+	margin-bottom: 30px;
 }
