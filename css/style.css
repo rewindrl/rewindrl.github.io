@@ -425,7 +425,6 @@ textarea.form-element {
 	color: #ffffff;
 }
 #buy-button {
-	padding-top: 100px;
 	text-align: center;
 }
 #buy-button td {
@@ -455,4 +454,8 @@ textarea.form-element {
 }
 .carousel {
 	text-align: center;
+}
+#shop-info {
+	margin-top: 50px;
+	font-size: 18px;
 }
