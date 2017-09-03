@@ -325,6 +325,9 @@ h5 {
 	font-weight: 700;
 	color: #999;
 }
+.light {
+	color: #ccc;
+}
 .inline-link:hover {
 	color: #00D2FF;
 }
@@ -464,4 +467,43 @@ textarea.form-element {
 #shop-info p {
 	font-size: 18px;
 	font-weight: 600;
+}
+button.btn.btn-primary.my-btn.grey,
+a.btn.btn-primary.my-btn.grey{
+	background-color: #aaa;
+	color: #3a3a3a;
+}
+button.btn.btn-primary.my-btn.grey:hover,
+a.btn.btn-primary.my-btn.grey:hover{
+	color: #ffffff;
+}
+button.btn.btn-primary.my-btn.grey.discord:hover,
+a.btn.btn-primary.my-btn.grey.discord:hover{
+	background-color: #7289DA;
+}
+button.btn.btn-primary.my-btn.grey.twitter:hover,
+a.btn.btn-primary.my-btn.grey.twitter:hover{
+	background-color: #1DA1F2;
+}
+button.btn.btn-primary.my-btn.grey.twitch:hover,
+a.btn.btn-primary.my-btn.grey.twitch:hover{
+	background-color: #6441A4;
+}
+button.btn.btn-primary.my-btn.grey.youtube:hover,
+a.btn.btn-primary.my-btn.grey.youtube:hover{
+	background-color: #FF0000;
+}
+button.btn.btn-primary.my-btn.grey.patreon:hover,
+a.btn.btn-primary.my-btn.grey.patreon:hover{
+	background-color: #F96854;
+}
+#tf-about a.btn.grey{
+	display: inline-block;
+	text-align: center;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-top: 0px;
+	margin-bottom: 6px;
+	padding:  10px 0px;
+	width: calc(20% - 6px);
 }
