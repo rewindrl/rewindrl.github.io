@@ -506,4 +506,5 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	margin-bottom: 6px;
 	padding:  10px 0px;
 	width: calc(20% - 6px);
+	min-width: 75px;
 }
