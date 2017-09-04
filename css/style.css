@@ -476,6 +476,8 @@ a.btn.btn-primary.my-btn.grey{
 button.btn.btn-primary.my-btn.grey:hover,
 a.btn.btn-primary.my-btn.grey:hover{
 	color: #ffffff;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
 }
 button.btn.btn-primary.my-btn.grey.discord:hover,
 a.btn.btn-primary.my-btn.grey.discord:hover{
