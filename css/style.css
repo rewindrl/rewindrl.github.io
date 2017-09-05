@@ -467,6 +467,7 @@ textarea.form-element {
 #shop-info p {
 	font-size: 18px;
 	font-weight: 600;
+	text-align: justify;
 }
 button.btn.btn-primary.my-btn.grey,
 a.btn.btn-primary.my-btn.grey{
