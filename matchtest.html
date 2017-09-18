@@ -161,6 +161,7 @@
 	}, 'text');
 	$.get('https://matcherino.com/__api/bounties/getDynamicCode?bountyId=7991&auth=5jo9FKWrF65jYYLdS3oXZ8PvJHWGiYI23XXacQXqOGrcyylVA543FFWR7fEk8KH0', function(data) {
 		$("#matchcode").append(jQuery.parseJSON(data)['body']);
+		alert(data);
 	}, 'text');
 	</script>
 
