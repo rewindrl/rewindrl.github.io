@@ -119,10 +119,10 @@
 			
             <div class="container">
                 <div class="content">
-                    <h1>Thanks for helping us out!</h1>
-                    <h3>Our trained webdev has been dispatched and will take a look at your issue ASAP!</h3>
+                    <h1>Help us fund our tournaments!</h1>
+                    <h3>Please use the code '<div id="matchcode"></div>' at <a href="https://matcherino.com/tournaments/7991">our Matcherino page</a>!</h3>
                     <br>
-                    <a href="/" class="btn btn-primary my-btn2">Back home</a>
+                    <a href="/" class="btn btn-primary my-btn2">Home</a>
                 </div>
             </div>
         </div>
@@ -159,27 +159,9 @@
 			$(".twitch-banner").append("<p>We're streaming a tournament LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
 		}
 	}, 'text');
-	$.get('https://matcherino.com/tournaments/7694/overlays/RandomCodeRewards/v1?auth=gA2pcw7DREUiUvJ4FTlujZO-UzCQKVnrXKuJ84zqfJx8bU_brTVcg61Nx9x4gBAS', null, function(text){
-		alert($(text).find('#contribute-txt'));
-	});
-	$.ajax({
-        crossOrigin: true,
-        url: "https://matcherino.com/tournaments/7694/overlays/RandomCodeRewards/v1?auth=gA2pcw7DREUiUvJ4FTlujZO-UzCQKVnrXKuJ84zqfJx8bU_brTVcg61Nx9x4gBAS",
-        success: function(data) {
-            alert("mhm");
-        }
-    });
-	$.ajax({
-	  url: "https://matcherino.com/tournaments/7694/overlays/RandomCodeRewards/v1?auth=gA2pcw7DREUiUvJ4FTlujZO-UzCQKVnrXKuJ84zqfJx8bU_brTVcg61Nx9x4gBAS",
-	  dataType: "jsonp",
-	  success: function (data) {
-		console.log(data)
-		alert(data);
-	  }
-	});
-	$.getJSON('http://anyorigin.com/go?url=https%3A//matcherino.com/tournaments/7694/overlays/RandomCodeRewards/v1%3Fauth%3DgA2pcw7DREUiUvJ4FTlujZO-UzCQKVnrXKuJ84zqfJx8bU_brTVcg61Nx9x4gBAS&callback=?', function(data){
-		$('#match').html(data.contents);
-	});
+	$.get('https://matcherino.com/__api/bounties/getDynamicCode?bountyId=7991&auth=5jo9FKWrF65jYYLdS3oXZ8PvJHWGiYI23XXacQXqOGrcyylVA543FFWR7fEk8KH0', function(data) {
+		$("#matchcode").append(data['body']);
+	}, 'text');
 	</script>
 
 	
