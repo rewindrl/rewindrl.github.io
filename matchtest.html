@@ -154,16 +154,16 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="/js/bootstrap.js"></script>
 	<script>
+	$.get('https://matcherino.com/__api/bounties/getDynamicCode?bountyId=7991&auth=5jo9FKWrF65jYYLdS3oXZ8PvJHWGiYI23XXacQXqOGrcyylVA543FFWR7fEk8KH0', function(data) {
+		$("#matchcode").append(jQuery.parseJSON(data)['body']);
+		alert(data);
+		alert("wtf");
+	}, 'text');
 	$.get('https://api.twitch.tv/kraken/streams/rewindrl?client_id=5j0r5b7qb7kro03fvka3o8kbq262wwm', function(data) {
 		if(data.indexOf("viewers") !== -1) {
 			$(".twitch-banner").append("<p>We're streaming a tournament LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
 		}
 		alert("this works");
-	}, 'text');
-	$.get('https://matcherino.com/__api/bounties/getDynamicCode?bountyId=7991&auth=5jo9FKWrF65jYYLdS3oXZ8PvJHWGiYI23XXacQXqOGrcyylVA543FFWR7fEk8KH0', function(data) {
-		$("#matchcode").append(jQuery.parseJSON(data)['body']);
-		alert(data);
-		alert("wtf");
 	}, 'text');
 	</script>
 
