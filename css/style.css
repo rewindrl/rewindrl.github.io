@@ -516,3 +516,6 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	margin-left: 0px;
 	border-top-color: #00d2ff;
 }
+#matchcode {
+	text-transform: none;
+}
