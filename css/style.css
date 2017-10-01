@@ -160,6 +160,7 @@ a.btn,
 input.btn {
 	margin: 15px 5px;
 	transition: all 0.5s;
+	line-height: normal;
 }
 button.btn.btn-primary.my-btn,
 a.btn.btn-primary.my-btn,
