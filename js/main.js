@@ -18,7 +18,7 @@ function main() {
       } else {
           $('#tf-menu').removeClass('stick');
 		  $('#scroll-spacer').html('');
-		  $('#scroll-spacer').attr('style', 'transition: all 0.5s;padding: 0;line-height: 0;');
+		  $('#scroll-spacer').attr('style', 'transition: all 0.5s;padding: 0;');
       }
   }
   $(function () {

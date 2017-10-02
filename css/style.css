@@ -522,3 +522,6 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	text-transform: none;
 	font-size: 100px;
 }
+#scroll-spacer {
+	color: transparent;
+}
