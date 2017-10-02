@@ -12,13 +12,13 @@ function main() {
       var div_top = $('#sticky-anchor').offset().top;
       if (window_top > div_top) {
           $('#tf-menu').addClass('stick');
-		  $('#sticky-anchor').html('.');
-		  $('#sticky-anchor').attr('style', 'transition: background 0.5s;transition: height none; transition: padding none;padding: 2% 0;line-height: 50px;background-color:#222222;');
+		  $('#scroll-spacer').html('.');
+		  $('#scroll-spacer').attr('style', 'transition: none;padding: 2% 0;line-height: 50px;');
 		  
       } else {
           $('#tf-menu').removeClass('stick');
-		  $('#sticky-anchor').html('');
-		  $('#sticky-anchor').attr('style', 'transition: all 0.5s;padding: 0;line-height: 0;background: transparent;');
+		  $('#scroll-spacer').html('');
+		  $('#scroll-spacer').attr('style', 'transition: all 0.5s;padding: 0;line-height: 0;');
       }
   }
   $(function () {
