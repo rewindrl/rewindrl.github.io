@@ -124,9 +124,9 @@
                     <h1>Help us fund our tournaments!</h1>
                     <h3>Please use the code</h3>
 					<h3><span id="matchcode"><div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></span></h3>
-					<h3>at <a href="https://matcherino.com/tournaments/8324">our Matcherino page</a>!</h3>
+					<h3>at <a class="matchlink">our Matcherino page</a>!</h3>
                     <br>
-                    <a href="https://matcherino.com/tournaments/8324" class="btn btn-primary my-btn2">Go to Matcherino</a>
+                    <a class="btn btn-primary my-btn2 matchlink">Go to Matcherino</a>
                 </div>
             </div>
         </div>
@@ -157,10 +157,8 @@
     <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/matcherino.js"></script>
 	<script>
-	$.get('https://zori3d.com/code.php?matcherinoid=8324', function(data) {
-		$("#matchcode").html(jQuery.parseJSON(data)['body']);
-	}, 'text');
 	$.get('https://api.twitch.tv/kraken/streams/rewindrl?client_id=5j0r5b7qb7kro03fvka3o8kbq262wwm', function(data) {
 		if(data.indexOf("viewers") !== -1) {
 			$(".twitch-banner").append("<p>We're streaming a tournament LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
