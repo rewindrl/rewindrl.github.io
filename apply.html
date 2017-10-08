@@ -164,17 +164,11 @@
     <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="/js/bootstrap.js"></script>
-	<script>
-	$.get('https://api.twitch.tv/kraken/streams/rewindrl?client_id=5j0r5b7qb7kro03fvka3o8kbq262wwm', function(data) {
-		if(data.indexOf("viewers") !== -1) {
-			$(".twitch-banner").append("<p>We're streaming a tournament LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
-		}
-	}, 'text');
-	</script>
 
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/twitchbanner.js"></script>
 
   </body>
 </html>
