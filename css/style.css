@@ -34,7 +34,7 @@ p{
 	font-size: 13px;
 }
 
-a { 
+a {
 	color: #ffffff;
 	transition: all 0.2s;
 }
@@ -119,14 +119,14 @@ a:focus{
 	letter-spacing: 1px;
 }
 
-#tf-menu.navbar-default .navbar-nav > li > a:hover, 
+#tf-menu.navbar-default .navbar-nav > li > a:hover,
 #tf-menu.navbar-default .navbar-nav > li > a:focus {
 	color: #00D2FF;
 	background-color: transparent;
 }
 
 #tf-service{
-	padding: 7% 0; 
+	padding: 7% 0;
 }
 
 .media-left.media-middle i {
@@ -144,7 +144,7 @@ a:focus{
 }
 
 #tf-tournaments{
-	background: #353535; 
+	background: #353535;
 	padding: 5% 0 0 0;
 	text-align: center;
 }

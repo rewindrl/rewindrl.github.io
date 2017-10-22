@@ -4,11 +4,13 @@ function param(name) {
 }
 if (param("id") != "") {
 	code = param("id");
+  $(".matchlink").attr("href", "https://matcherino.com/tournaments/" + code);
+  $.get('https://zori3d.com/code.php?matcherinoid=' + code, function(data) {
+  	$("#matchcode").html(jQuery.parseJSON(data)['body']);
+  }, 'text');
 }
 else {
-	code = "8324";
+  setTimeout(function(){
+    $("#matchcode").html("<p>Looks like you haven't got a tournament ID.</p><p>Check the link you were given, or contact an admin.</p>");
+  }, 1000);
 }
-$(".matchlink").attr("href", "https://matcherino.com/tournaments/" + code);
-$.get('https://zori3d.com/code.php?matcherinoid=' + code, function(data) {
-	$("#matchcode").html(jQuery.parseJSON(data)['body']);
-}, 'text');
