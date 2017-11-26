@@ -1078,7 +1078,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #999;
-  background-color: #313131;
+  background-color: #1D1D1D;
 }
 input,
 button,
@@ -1126,7 +1126,7 @@ img {
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #313131;
+  background-color: #212D3A;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;

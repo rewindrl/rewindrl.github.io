@@ -12,7 +12,7 @@
     <meta name="keywords" content="rewind, gaming, rocket, league, tournaments, competitive, team, esports, poisonwasp, bucketman, europe, uk, germany, netherlands, belgium, psyonix"/>
     <meta name="author" content="bucketman"/>
 	<meta name="geo.region" content="GB"/>
-	<meta name="theme-color" content="#313131" />
+	<meta name="theme-color" content="#212D3A" />
 	<meta name="apple-mobile-web-app-title" content="Rewind Gaming">
 	<!-- OGP metadata -->
 	<meta property="og:title" content="Rewind Gaming"/>
@@ -128,6 +128,11 @@
 
     <div id="tf-home">
         <div class="overlay">
+          <div class="header-bg">
+              <video loop muted autoplay poster="img/webheader.jpg" class="bg-video">
+                  <source src="img/headervid.mp4" type="video/mp4">
+              </video>
+          </div>
            <div id="sticky-anchor"></div>
            <nav id="tf-menu" class="navbar navbar-default">
                <div class="container">
@@ -139,20 +144,20 @@
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand logo" href="#tf-home" style="padding:0px"><img itemprop="image" src="/img/Rewind Transparent.png" width=50 height=50 alt="Rewind Gaming Logo"></img></a>
+                      <a class="navbar-brand logo" href="#tf-home"><img itemprop="image" src="/img/logo_alpha50.png" width=50 height=50 alt="Rewind Gaming Logo"></img></a>
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                      <ul class="nav navbar-nav navbar-right">
                          <li><a href="#tf-home">Home</a></li>
-						 <li><a href="/signup">Tournaments</a></li>
+						             <li><a href="/signup">Tournaments</a></li>
                          <li><a href="/apply">Apply</a></li>
                       </ul>
                   </div><!-- /.navbar-collapse -->
                </div><!-- /.container-fluid -->
            </nav>
-		   <div id="scroll-spacer"></div>
+		       <div id="scroll-spacer"></div>
 
            <div class="container">
                <div class="content">
@@ -176,7 +181,7 @@
                      <i class="fa fa-gamepad"></i>
                   </div>
                   <div class="media-body">
-                     <h4 class="media-heading">Tournaments</h4>
+                     <a href="#tf-tournaments"><h4 class="media-heading service-stealth">Tournaments</h4></a>
                      <p>We work hard to produce the best tournaments in Europe.</p>
                   </div>
                </div>
@@ -187,11 +192,11 @@
 
                <div class="media">
                   <div class="media-left media-middle">
-                     <i class="fa fa-rocket"></i>
+                     <i class="fa fa-television"></i>
                   </div>
                   <div class="media-body">
-                     <h4 class="media-heading">Competitive Teams</h4>
-                     <p>Watch this space!</p>
+                     <a href="http://twitch.tv/RewindRL"><h4 class="media-heading service-stealth">Streams</h4></a>
+                     <p>We aim to provide entertaining, high-quality <a href="http://twitch.tv/RewindRL" class="inline-link" target="_blank">Twitch</a> broadcasts.</p>
                  </div>
                </div>
 
@@ -204,7 +209,7 @@
                      <i class="fa fa-heart"></i>
                   </div>
                   <div class="media-body">
-                     <h4 class="media-heading">Community</h4>
+                     <a href="http://discord.gg/GtmuFXP"><h4 class="media-heading service-stealth">Community</h4></a>
                      <p>Join the best community in the world on our <a href="http://discord.gg/GtmuFXP" class="inline-link" target="_blank">Discord server</a>!</p>
                   </div>
                </div>
@@ -217,18 +222,35 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1>About Us</h1>
+                        <h2 class="section-header">About Us</h2>
                         <hr>
                         <p class="RG-Info">Rewind Gaming began in September 2016 simply as a group of friends looking to play with other people. It grew steadily from there, focusing on holding Rocket League tournaments for people both in the server and outside it. We host 3v3 and 2v2 events every single week, so make sure to join our <a href="http://discord.gg/GtmuFXP" class="inline-link light" target="_blank">Discord server</a> if you want to take part!</p>
-						<p class="RG-Info">We also have an amazing staff team made up entirely of volunteers. They help out with everything from bracket management to broadcasting to organising partnerships, and without them we wouldn't be anywhere. If you want to apply to join the team, please visit our <a href="/apply" class="inline-link light">staff application form</a>!</p>
-						<p class="RG-Info">If you're after more information, or fancy helping us out with a donation, you can find our social contacts here:</p>
-						<a href="https://discord.gg/GtmuFXP" class="btn btn-primary my-btn grey discord" target="_blank">Discord</a><a href="https://twitter.com/RewindRL" class="btn btn-primary my-btn grey twitter" target="_blank">Twitter</a><a href="https://twitch.tv/RewindRL" class="btn btn-primary my-btn grey twitch" target="_blank">Twitch</a><a href="https://youtube.com/RewindGamingRL" class="btn btn-primary my-btn grey youtube" target="_blank">YouTube</a><a href="https://patreon.com/RewindRL" class="btn btn-primary my-btn grey patreon" target="_blank">Patreon</a>
+						            <p class="RG-Info">We also have an amazing staff team made up entirely of volunteers. They help out with everything from bracket management to broadcasting to organising partnerships, and without them we wouldn't be anywhere. If you want to apply to join the team, please visit our <a href="/apply" class="inline-link light">staff application form</a>!</p>
+						            <p class="RG-Info" id="socialgap">If you're after more information, want to join our awesome community of friendly Rocket League players or fancy helping us out with a donation, you can find our social contacts here:</p>
+                        <a href="https://discord.gg/GtmuFXP" class="btn btn-primary my-btn grey discord" target="_blank">Discord</a><a href="https://twitter.com/RewindRL" class="btn btn-primary my-btn grey twitter" target="_blank">Twitter</a><a href="https://twitch.tv/RewindRL" class="btn btn-primary my-btn grey twitch" target="_blank">Twitch</a><a href="https://youtube.com/RewindGamingRL" class="btn btn-primary my-btn grey youtube" target="_blank">YouTube</a><a href="https://patreon.com/RewindRL" class="btn btn-primary my-btn grey patreon" target="_blank">Patreon</a>
                     </div>
 
-					<div class="col-md-4" id="mobile-hide">
-						<br>
-						<a class="twitter-timeline" data-lang="en" data-width="100%" data-height="550" data-dnt="true" data-theme="dark" data-link-color="#00D2FF" href="https://twitter.com/RewindRL" target="_blank">Tweets by RewindRL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
+          					<div class="col-md-4" id="mobile-hide">
+          						<a class="twitter-timeline" data-lang="en" data-width="100%" data-height="550" data-dnt="true" data-theme="dark" data-link-color="#2196F3" href="https://twitter.com/RewindRL" target="_blank">Tweets by RewindRL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-video">
+        <div class="overlay">
+            <div class="container">
+                <div class="row" id="video-row">
+                  <div class="col-md-8" id="video-col">
+                    <svg width=16000 height=9000 id="video-aspect" />
+                    <iframe width="100%" height="100%" id="yt-video" src="https://www.youtube-nocookie.com/embed/w8aAARHLghc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-md-4" id="video-info">
+                    <h3>Check out our latest Top 5 Plays video!</h3>
+                    <hr id="video-spacer">
+                    <p class="RG-Info">We make a Top 5 Plays video for every week's 3v3 tournament. If you want to see more, you can take a look at the <a href="https://www.youtube.com/playlist?list=PLi3iIhOvqkclureLAXhEqClyXEX0YNN3A" class="inline-link light">YouTube playlist</a>!
+                  </div>
                 </div>
             </div>
         </div>
@@ -238,7 +260,7 @@
         <div class="container">
             <div class="section-title">
                 <h3>Our tournament series</h3>
-				<p>All of our tournaments are hosted over on <a href="https://smash.gg/tournaments?per_page=30&filter=%7B%22upcoming%22%3Afalse%2C%22videogameIds%22%3A14%2C%22online%22%3Atrue%2C%22name%22%3A%22RG%22%2C%22past%22%3Afalse%7D&page=1" class="inline-link" target="_blank">smash.gg</a>.</p>
+				        <p>All of our tournaments are hosted over on <a href="https://smash.gg/tournaments?per_page=30&filter=%7B%22upcoming%22%3Afalse%2C%22videogameIds%22%3A14%2C%22online%22%3Atrue%2C%22name%22%3A%22RG%22%2C%22past%22%3Afalse%7D&page=1" class="inline-link" target="_blank">smash.gg</a>.</p>
                 <hr>
             </div>
 
@@ -246,7 +268,7 @@
 
 			<div class="row">
 				<div class="col-md-4 tournament-info">
-					<img src="img/New_Weekly_Design_45.png" class="img-responsive" alt="Rewind Gaming 3v3 Weekly Tournament Poster"/>
+					<img src="img/3v3GMT.png" class="img-responsive" alt="Rewind Gaming 3v3 Weekly Tournament Poster"/>
 					<br>
 					<h4>RG 3v3 Weeklies</h4>
 					<p style="padding-top:0;">Our original weekly tournament series, the 3v3 Weekly is every Saturday at 7:30pm GMT. It usually has our biggest prize pools. </p>
@@ -256,7 +278,7 @@
 				</div>
 
 				<div class="col-md-4 tournament-info">
-					<img src="img/2v2_Showdown.png" class="img-responsive" alt="Rewind Gaming 2v2 Showdown Tournament Poster"/>
+					<img src="img/2v2GMT.png" class="img-responsive" alt="Rewind Gaming 2v2 Showdown Tournament Poster"/>
 					<br>
 					<h4>RG 2v2 Showdowns</h4>
 					<p style="padding-top:0;">Our new 2v2 Showdown series is a response to popular request. The prize is crowdfunded, so please visit the Matcherino page if you fancy donating!</p>
@@ -297,23 +319,16 @@
         </div>
     </nav>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery & Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="/js/bootstrap.js"></script>
 
-    <!-- Javascripts
+    <!-- Scripts
     ================================================== -->
     <script type="text/javascript" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/twitchbanner.js"></script>
-	<!-- FitText -->
-	<script src="/js/fittext.js"></script>
-	<script type="text/javascript">$(".FitText").fitText(0.9, {maxFontSize: '12px'});</script>
-	<!-- BigText -->
-	<!--<script type="text-javascript" src="/js/bigtext.js"></script>
-	<script type="text/javascript">$(".FitText").bigtext({maxfontsize: 12})</script>-->
-
+    <script type="text/javascript" src="/js/headervideo.js"></script>
   </body>
 </html>
 <!-- poison is a muppet -->

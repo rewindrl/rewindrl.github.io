@@ -20,7 +20,6 @@ h1{
 }
 
 h2{
-	line-height: 20px;
 	margin:  0;
 }
 
@@ -28,7 +27,7 @@ h4 {
 	margin-bottom: 20px;
 	font-size: 16px;
 	font-weight: 700;
-	color: rgb(0, 210, 255);
+	color: #2196F3;
 }
 p{
 	font-size: 13px;
@@ -40,7 +39,7 @@ a {
 }
 a:hover,
 a:focus{
-	color: #00D2FF;
+	color: #2196F3;
 	text-decoration: none;
 }
 
@@ -58,12 +57,13 @@ a:focus{
 
 /* Home Style */
 #tf-home{
-	background: url(../img/webheader.jpg);
+	background: url("../img/webheader.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
+	position: relative;
 }
 
 #tf-home .overlay{
@@ -81,7 +81,7 @@ a:focus{
 .content{
 	padding: 15% 0 18% 0;
 	text-align: center;
-	text-shadow: 0 0 200px #00D2FF, 0 0 70px #00D2FF;
+	text-shadow: 0 0 200px #2196F3, 0 0 70px #2196F3;
 	-webkit-transform: translate3d(0,0,0); /* use GPU for the text-shadow since it's super hard work */
 }
 .content.btn {
@@ -121,7 +121,7 @@ a:focus{
 
 #tf-menu.navbar-default .navbar-nav > li > a:hover,
 #tf-menu.navbar-default .navbar-nav > li > a:focus {
-	color: #00D2FF;
+	color: #2196F3;
 	background-color: transparent;
 }
 
@@ -132,7 +132,7 @@ a:focus{
 .media-left.media-middle i {
 	padding: 20px 30px 20px 0;
 	font-size: 30px;
-	color: #00D2FF;
+	color: #2196F3;
 
 }
 
@@ -140,17 +140,18 @@ a:focus{
 	margin-bottom: 20px;
 	font-size: 16px;
 	font-weight: 700;
-	color: #00D2FF;
+	color: #2196F3;
+	transition: all 0.3s;
 }
 
 #tf-tournaments{
-	background: #353535;
+	background: #1D1D1D;
 	padding: 5% 0 0 0;
 	text-align: center;
 }
 
 .section-title hr{
-	border-color: #00D2ff;
+	border-color: #2196F3;
 	width: 60px;
 }
 
@@ -165,7 +166,7 @@ input.btn {
 button.btn.btn-primary.my-btn,
 a.btn.btn-primary.my-btn,
 input.btn.btn-primary.my-btn {
-	background: #00D2FF;
+	background: #2196F3;
 	border-color: transparent;
 	border-radius: 0px;
 	border-width: 2px;
@@ -179,13 +180,13 @@ button.btn.btn-primary.my-btn:hover,
 a.btn.btn-primary.my-btn:hover,
 input.btn.btn-primary.my-btn:hover{
 	background: #FFFFFF;
-	color: #00D2FF;
+	color: #2196F3;
 	border-color: transparent;
 }
 button.btn.btn-primary.my-btn.dark:hover,
 a.btn.btn-primary.my-btn.dark:hover{
 	background-color: #aaa;
-	color: #3a3a3a;
+	color: #1D1D1D;
 	border-color: transparent;
 }
 a.btn.btn-primary.my-btn2 {
@@ -202,24 +203,24 @@ a.btn.btn-primary.my-btn2 {
 }
 
 a.btn.btn-primary.my-btn2:hover{
-	background: #00D2FF;
+	background: #2196F3;
 	color: #ffffff;
 	border-color: transparent;
 }
 
 ul.cat.list-inline li a {
-	border: 1px solid #00D2FF;
+	border: 1px solid #2196F3;
 	padding: 5px 15px;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 1px;
-	color: #00D2FF;
+	color: #2196F3;
 	transition: all 0.5s;
 }
 
 ul.cat.list-inline li a:hover{
-	background: #00D2FF;
+	background: #2196F3;
 	color: #ffffff;
 }
 
@@ -228,7 +229,7 @@ ul.cat.list-inline li a:hover{
 .nopadding{ padding:  0;}
 
 #tf-about{
-	background-color: #3a3a3a;
+	background-color: #2A2A2A;
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
@@ -236,7 +237,7 @@ ul.cat.list-inline li a:hover{
 	color: #aaa;
 }
 
-#tf-about .overlay{
+#tf-about .overlay, #tf-video .overlay{
 	height: auto;
 	background-attachment: fixed;
 	padding: 3% 0;
@@ -288,9 +289,9 @@ form#contact {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #555;
-	background-color: #313131;
+	background-color: #1D1D1D;
 	background-image: none;
-	border: 1px solid #313131;
+	border: 1px solid #1D1D1D;
 	border-radius: 0;
 	border-top: 2px solid transparent;
 	-webkit-box-shadow: none;
@@ -301,7 +302,7 @@ form#contact {
 }
 #tf-contact .form-control:focus,
 #tf-contact .form-control:hover{
-	border-top: 2px solid #00D2FF;
+	border-top: 2px solid #2196F3;
 }
 nav#tf-footer {
 	background: #222222;
@@ -327,11 +328,19 @@ h5 {
 	font-weight: 700;
 	color: #999;
 }
+.navbar-brand {
+	padding: 0px;
+}
+@media (max-width: 759px){
+	.navbar-brand {
+		padding-left: 15px;
+	}
+}
 .light {
-	color: #ccc;
+	color: #FFF;
 }
 .inline-link:hover {
-	color: #00D2FF;
+	color: #2196F3;
 }
 .team-table-cell {
 	width: auto;
@@ -341,6 +350,10 @@ h5 {
 }
 @media (max-width: 991px){
 	#mobile-hide {
+		visibility: hidden;
+		display: none;
+	}
+	#tf-video {
 		visibility: hidden;
 		display: none;
 	}
@@ -393,14 +406,14 @@ h5 {
 	background-color: #aaa;
 	border-color: #aaa;
 	border-style: solid;
-	color: #313131;
-	caret-color: #313131;
+	color: #1D1D1D;
+	caret-color: #1D1D1D;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
 .form-element:focus {
-    outline-color: #00D2FF;
+    outline-color: #2196F3;
     outline-style: auto;
     outline-width: 5px;
 }
@@ -416,8 +429,8 @@ textarea.form-element {
 	padding-bottom: 20px;
 }
 #notif-banner {
-	background-color: #00D2FF;
-	color: #313131;
+	background-color: #2196F3;
+	color: #1D1D1D;
 	font-weight: bold;
 }
 #notif-banner p {
@@ -425,7 +438,7 @@ textarea.form-element {
 	padding: 10px 10%;
 }
 #notif-banner a {
-	color: #313131;
+	color: #1D1D1D;
 	text-decoration: underline;
 }
 #notif-banner a:hover{
@@ -445,7 +458,7 @@ textarea.form-element {
 	width: 100%;
 }
 #buy-button select {
-	color: #313131;
+	color: #1D1D1D;
 	background-color: #aaa;
 	font-family: 'Roboto', sans-serif;
 }
@@ -474,7 +487,7 @@ textarea.form-element {
 button.btn.btn-primary.my-btn.grey,
 a.btn.btn-primary.my-btn.grey{
 	background-color: #aaa;
-	color: #3a3a3a;
+	color: #1D1D1D;
 }
 button.btn.btn-primary.my-btn.grey:hover,
 a.btn.btn-primary.my-btn.grey:hover{
@@ -513,10 +526,10 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	width: calc(20% - 6px);
 	min-width: 75px;
 }
-#tf-about hr {
+#tf-about hr, #tf-video hr {
 	width: 72px;
 	margin-left: 0px;
-	border-top-color: #00d2ff;
+	border-top-color: #2196F3;
 }
 #matchcode {
 	text-transform: none;
@@ -524,4 +537,89 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 }
 #scroll-spacer {
 	color: transparent;
+}
+#tf-service {
+	background-color: #1D1D1D;
+}
+.header-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	height: 100%;
+}
+.bg-video {
+	position: absolute;
+	left: -10px;
+	bottom: -10px;
+	filter: blur(5px) brightness(0.5);
+}
+@media (min-width: 1090px){
+	.bg-video {
+		width: calc(100% + 20px);
+		height: auto;
+		bottom: -3vw;
+	}
+}
+@media (max-width: 1160px) and (min-width: 1090px), (max-width: 1240px) and (min-width: 1200px){
+	.bg-video {
+		bottom: -10px;
+	}
+}
+@media (max-width: 1089px){
+	.bg-video {
+		width: auto;
+		height: calc(100% + 20px);
+	}
+}
+@media (max-width: 720px) {
+	.bg-video {
+		display: none;
+	}
+}
+.section-header {
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#socialgap {
+	margin-bottom: 20px;
+}
+.service-stealth:hover {
+	color: #ffffff;
+}
+#video-row {
+	padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#yt-video {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#video-aspect {
+  display:block;
+  height:auto;
+  width:auto;
+  max-width:100%;
+  max-height:100%;
+}
+#video-spacer {
+	margin: 30px 0px;
+}
+#tf-video {
+	background-color: #212D3A;
+}
+#video-info {
+	padding-left: 0px;
+}
+#video-col {
+	margin-right: 3vh;
 }
