@@ -311,15 +311,6 @@ nav#tf-footer {
 }
 
 /* bucketman's extra bits */
-#discordicon {
-	background-image: url(../img/discord.png);
-	width: 14px;
-	height: 14px;
-	background-position: 0px 1px;
-}
-#discordicon:hover {
-	background-image: url(../img/discord_blue.png);
-}
 h5 {
 	font-family: 'Orbitron', sans-serif;
 	font-size: 0.8vw;
