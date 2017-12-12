@@ -348,6 +348,9 @@ h5 {
 		visibility: hidden;
 		display: none;
 	}
+	.content{
+		text-shadow: none;
+	}
 }
 .RG-Info {
 	font-size: 18px;
