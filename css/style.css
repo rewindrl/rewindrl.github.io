@@ -615,6 +615,18 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	padding-left: 0px;
 }
 #video-col {
-	margin-right: 3vh;
+	margin-right: 30px;
 	padding: 0px;
+	width: 768px;
+}
+#video-info {
+	width: 302px;
+}
+@media (max-width: 1199px) {
+	#video-info {
+		width: 300px;
+	}
+	#video-col {
+		width: 640px;
+	}
 }
