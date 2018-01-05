@@ -340,11 +340,7 @@ h5 {
 	padding-right: 5px;
 }
 @media (max-width: 991px){
-	#mobile-hide {
-		visibility: hidden;
-		display: none;
-	}
-	#tf-video {
+	.mobile-hide {
 		visibility: hidden;
 		display: none;
 	}
