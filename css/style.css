@@ -638,6 +638,13 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	justify-content: center;
 	align-items: center;
 }
+#tf-partners img {
+	transition: all ease 0.3s;
+	border-radius: 10px;
+}
+#tf-partners img:hover {
+	box-shadow: 0px 0px 10px #000;
+}
 .partner-stealth {
 	color: #999;
 }
