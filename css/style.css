@@ -363,9 +363,9 @@ h5 {
   transition: all 0.3s;
 }
 .signup-img:hover img {
-  -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -moz-transform: scale(1.005);
+  -webkit-transform: scale(1.005);
+  transform: scale(1.005);
 }
 ::-webkit-scrollbar {
     height: 12px;
