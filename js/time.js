@@ -1,6 +1,6 @@
 function updateTime() {
     var timenow = moment().tz("Europe/London");
-    $("#livetime").html(timenow.format("dddd, HH:mm:ss"));
+    $("#livetime").html(timenow.format("dddd, HH:mm:ss zz"));
     if (timenow.format("d") == 4) {
         if (timenow.format("H") < 18) {
             $("#countwrap").html("(That's  " + countdown(moment(new Date(timenow.year(), timenow.month(), timenow.date(), 18, 00, 00, 500)).tz("Europe/London")).toString() + " until tonight's 2v2 Showdown.)");
