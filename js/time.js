@@ -11,7 +11,7 @@ function updateTime() {
     }
     else if (timenow.format("d") == 5) {
         if (timenow.format("H") < 18 || (timenow.format("H") == 18 && timenow.format("m") < 30)) {
-            $("#countwrap").html("(That's  " + countdown(moment(new Date(timenow.year(), timenow.month(), timenow.date(), 18, 30, 00, 500)).tz("Europe/London")).toString() + " until tonight's 3v3 Weekly.)");
+            $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-DD") + " 18:30:00:500+00")).toString() + " until tonight's 3v3 Weekly.)");
         }
         else {
             $("#countwrap").html("Tonight's 3v3 Weekly has begun!");
