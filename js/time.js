@@ -1,10 +1,12 @@
 function updateTime() {
-    $("#livetime").html(moment().tz("Europe/London").format("HH:mm:ss") + ".");
-    // const weeklyday = 4;
-    // if (moment().tz("Europe/London").format("d") <== moment(weeklyday.toString() + " ").tz("Europe/London").) {
-    //     var nextweekly = moment().tz("Europe/London")
-    // }
-    // $("#weeklycount").html(moment().tz("Europe/London").countdown("1982-05-25").toString());
+    var timenow = moment().tz("Europe/London");
+    $("#livetime").html(timenow.format("dddd, H:mm:ss"));
+    if (timenow.format("d") == 4) {
+        $("#countwrap").html("(That's  " + countdown(new Date(timenow.year(), timenow.month(), timenow.date(), 18, 00, 00)).toString() + " until tonight's 2v2 Showdown.)");
+    }
+    else if (timenow.format("d") == 5) {
+        $("#countwrap").html("(That's  " + countdown(new Date(timenow.year(), timenow.month(), timenow.date(), 18, 30, 00)).toString() + " until tonight's 3v3 Weekly.)");
+    }
     setTimeout(updateTime, 500);
 }
 updateTime();
