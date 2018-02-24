@@ -419,20 +419,20 @@ textarea.form-element {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#notif-banner {
+.notif-banner {
 	background-color: #2196F3;
 	color: #1D1D1D;
 	font-weight: bold;
 }
-#notif-banner p {
+.notif-banner p {
 	margin: 0px;
 	padding: 10px 10%;
 }
-#notif-banner a {
+.notif-banner a {
 	color: #1D1D1D;
 	text-decoration: underline;
 }
-#notif-banner a:hover{
+.notif-banner a:hover{
 	color: #ffffff;
 }
 #buy-button {
