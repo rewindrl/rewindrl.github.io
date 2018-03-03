@@ -1,12 +1,164 @@
 .admin-page-header {
-	background-color: #1d1d1d;
+	background-color: #222;
 }
-.breadcrumb-container {
-	background-color: #1d1d1d;
+.admin-page-header .breadcrumb-container {
+	background-color: #222;
 }
-.breadcrumb {
+.breadcrumb li {
 	color: #aaa;
 }
-#scrollbar-container ps-container {
-	background-color: 1f3a51;
+.admin .admin-main .admin-page .page-content {
+	background-color: #333;
 }
+.match-affix-wrapper {
+    background-color: #162e42;
+}
+.report-modal .modal-content .modal-body, .MatchHeader {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+.EntrantScore {
+    color: #fff;
+}
+.report-modal .modal-tabs .tab-pane {
+    background-color: #333;
+}
+.Card {
+    background-color: #444;
+}
+.report-modal .modal-tabs .navbar-nav li>a:hover {
+    border-bottom: 3px solid #aaa;
+}
+.report-modal .gg-card {
+    background-color: #444;
+}
+h4, h3, .player-avatar {
+    color: #aaa;
+}
+.Chat__message-content, .form-control {
+    background-color: #333;
+    color: #aaa;
+}
+select {
+    background-color: #444;
+}
+.gg-card .gg-card-body {
+    color: #aaa;
+}
+.bg-white {
+    background-color: #444;
+}
+.checkbox, .gg-form-box i {
+    color: #aaa;
+}
+.Select-control {
+    background-color: #444;
+}
+.match-quick-options {
+    background-color: #444;
+}
+.match .match-player {
+    background-color: #333;
+}
+.match-player-name {
+    color: #aaa;
+}
+.match>.match-affix-wrapper>.match-section {
+    border-color: #222;
+}
+.match .match-spacer {
+    border-color: #222;
+}
+.match-affix-wrapper .match-label {
+    background-color: #222;
+}
+.match-affix-wrapper .match-label .fa-caret-right {
+    color: #222;
+}
+.text-muted {
+    color: #aaa;
+}
+.admin .admin-page-header, .admin-page-header .admin-sidenav-toggle {
+    border-color: #444;
+}
+.gg-component-reset p {
+    color: #aaa;
+}
+.container div div div, .container header, .HelpCard, .HelpCard__sidebar, .gg-component-reset section {
+    background-color: #222;
+    color: #aaa;
+    border: none;
+}
+.container {
+    color: #aaa;
+}
+.container section, .container div {
+    margin: 0px;
+    border: none;
+}
+.text-xlg {
+    margin-top: 10px;
+}
+.gg-form-box {
+    background-color: #222;
+    color: #aaa;
+}
+.input-group span, .input-group input.form-control {
+    background-color: #333;
+}
+.pane-body .container h1, .pane-body .container h3 {
+    color: #aaa;
+}
+div.container div form section div div div {
+    margin-top: 8px;
+}
+div.gg-component-reset.container div form section div div div div select {
+    background-color: #333;
+}
+div.gg-component-reset .AttendeesTable div div div table  {
+    background-color: #222;
+    background-image: none;
+    color: #aaa;
+}
+#search {
+    background-color: #222;
+}
+.table-responsive, .filters-container.table-filter, th {
+    background-color: #222;
+    color: #aaa;
+}
+.table-loadable tbody tr.clickable-row:hover, .well {
+    background-color: #333;
+}
+.modal-header, .modal-content {
+    background-color: #222;
+}
+ul.nav-list.list-inline li {
+    color: #aaa;
+}
+.bracket-setup-page .phase-setup-list .gg-form-box-section.active, .bracket-setup-page .phase-setup-list .gg-form-box-section.editing {
+    background-color: #333;
+}
+#groupTypeId, #numPools, .bracket-setup-page .phase-setup-list .gg-form-box-section.editing .gg-well {
+    background-color: #333;
+    border-color: #222;
+}
+.shadow-box {
+    background-color: #222;
+}
+.table-striped>tbody>tr:nth-of-type(odd), .table .table {
+    background-color: #222;
+    color: #aaa;
+}
+.wave-group-list.full-width .phase-seeding-group-item .seed-panel-body,  ul.striped>li:nth-of-type(even)  {
+    background-color: #222;
+}
+ .seed-panel .phase-seed-row.line-below, ul.striped>li:nth-of-type(odd){
+     background-color: #333;
+ }
+ .station-queue-page .station-list .station-column .empty-list {
+     background-color: #222;
+ }
+ .empty-state-container {
+     color: #aaa;
+ }
