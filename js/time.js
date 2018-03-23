@@ -17,8 +17,11 @@ function updateTime() {
             $("#countwrap").html("Tonight's 3v3 Weekly has begun!");
         }
     }
-    else {
+    else if (timenow.format("d") >= 6) {
         $("#countwrap").html("");
+    }
+    else {
+        $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-DD") + " 18:30:00:500+00")).toString() + " until this week's 3v3 Weekly on Friday.)");
     }
     setTimeout(updateTime, 500);
 }
