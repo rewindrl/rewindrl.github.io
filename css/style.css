@@ -666,6 +666,3 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 #livetime, #countwrap {
 	font-family: 'Inconsolata', monospace;
 }
-.overlay#full-height-content {
-	height: calc(100vh - 6vh);
-}
