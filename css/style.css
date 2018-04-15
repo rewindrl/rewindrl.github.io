@@ -81,8 +81,8 @@ a:focus{
 .content{
 	padding: 15% 0 18% 0;
 	text-align: center;
-	/* text-shadow: 0 0 200px #2196F3, 0 0 70px #2196F3;
-	-webkit-transform: translate3d(0,0,0); /* use GPU for the text-shadow since it's super hard work */ */
+	transform: translate3d(0,0,0);
+	/* text-shadow: 0 0 200px #2196F3, 0 0 70px #2196F3;*/
 }
 .content.btn {
 	text-shadow: none;
