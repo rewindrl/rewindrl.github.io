@@ -65,6 +65,7 @@ a:focus{
 	background-repeat: no-repeat;
 	color: #cfcfcf;
 	position: relative;
+	z-index: -2;
 }
 
 #tf-home .overlay{
@@ -541,6 +542,7 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	left: -10px;
 	bottom: -10px;
 	filter: blur(5px) brightness(0.5);
+	z-index: -1;
 }
 @media (min-width: 1090px){
 	.bg-video {
