@@ -9,19 +9,19 @@ function updateTime() {
     //         $("#countwrap").html("Tonight's 2v2 Showdown has begun!");
     //     }
     // }
-    if (timenow.format("d") == 5) {
-        if (timenow.format("H") < 18 || (timenow.format("H") == 18 && timenow.format("m") < 30)) {
-            $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-DD") + " 18:30:00:500+00")).toString() + " until tonight's 3v3 Weekly.)");
+    if (timenow.day() == 5) {
+        if (timenow.hour() < 18 || (timenow.hour() == 18 && timenow.minute() < 30)) {
+            $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-DD") + " 18:30:00:500").tz("Europe/London")).toString() + " until tonight's 3v3 Weekly.)");
         }
         else {
             $("#countwrap").html("Tonight's 3v3 Weekly has begun!");
         }
     }
-    else if (timenow.format("d") > 5) {
+    else if (timenow.day() > 5) {
         $("#countwrap").html("");
     }
     else {
-        $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-") + (parseInt(timenow.format("DD")) + 5 - parseInt(timenow.format("d"))).toString() + " 18:30:00:500+00")).toString() + " until the next 3v3 Weekly on Friday.)");
+        $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-") + (timenow.date() + 5 - timenow.day()).toString() + " 18:30:00:500").tz("Europe/London")).toString() + " until the next 3v3 Weekly on Friday.)");
     }
     setTimeout(updateTime, 500);
 }
