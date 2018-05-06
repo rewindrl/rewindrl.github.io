@@ -14,7 +14,7 @@ function main() {
           $('#tf-menu').addClass('stick');
 		  $('#scroll-spacer').html('.');
 		  $('#scroll-spacer').attr('style', 'transition: none;padding: 2% 0;line-height: 50px;');
-		  
+
       } else {
           $('#tf-menu').removeClass('stick');
 		  $('#scroll-spacer').html('');
@@ -26,9 +26,9 @@ function main() {
       sticky_relocate();
   });
 
-    
+
  $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
+  $('a[href*=\\#]:not([href=\\#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -42,7 +42,7 @@ function main() {
   });
 });
 
- 
+
 
 
 }());
