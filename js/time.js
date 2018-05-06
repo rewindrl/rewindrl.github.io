@@ -21,7 +21,7 @@ function updateTime() {
         $("#countwrap").html("");
     }
     else {
-        $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-") + (timenow.date() + 5 - timenow.day()).toString() + " 18:30:00:500").tz("Europe/London")).toString() + " until the next 3v3 Weekly on Friday.)");
+        $("#countwrap").html("(That's  " + countdown(moment(timenow.format("YYYY-MM-") + (timenow.date() + 5 - timenow.day()).toString() + " 18:30:00:500",  "YYYY-MM-DD HH:mm:ss:SSS").tz("Europe/London")).toString() + " until the next 3v3 Weekly on Friday.)");
     }
     setTimeout(updateTime, 500);
 }
