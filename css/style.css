@@ -671,3 +671,6 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 #livetime, #countwrap {
 	font-family: 'Inconsolata', monospace;
 }
+.no-spacing {
+	margin-bottom: 0px;
+}
