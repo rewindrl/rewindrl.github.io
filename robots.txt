@@ -1,9 +1,3 @@
 User-agent: *
-Disallow: /deliberatelyunwieldydocumentnametoavoidpeoplefindingthisaccidentally/
-Disallow: /deliberatelyunwieldydocumentnametoavoidpeoplefindingthisaccidentally.html/
-Disallow: /feedback
-Disallow: /feedback.html
-Disallow: /thanks
-Disallow: /thanks.html
 
 Sitemap: http://rewindrl.uk/sitemap.xml
