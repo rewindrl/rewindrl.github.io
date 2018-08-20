@@ -682,4 +682,5 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	max-width: 600px;
 	margin-top: -15%;
 	margin-bottom: -5%;
+	/*filter: blur(0.6px);*/
 }
