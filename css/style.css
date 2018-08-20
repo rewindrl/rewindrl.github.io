@@ -58,7 +58,7 @@ a:focus{
 
 /* Home Style */
 #tf-home{
-	background: url("/img/webheader.jpg");
+	background: url("/img/Colosseum.png");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -676,4 +676,10 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 }
 .no-spacing {
 	margin-bottom: 0px;
+}
+.showcase-video {
+	width: 80%;
+	max-width: 600px;
+	margin-top: -15%;
+	margin-bottom: -5%;
 }
