@@ -682,5 +682,7 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 	max-width: 600px;
 	margin-top: -15%;
 	margin-bottom: -5%;
+	-webkit-mask-image: url("/img/colo_logo.png");
+	mask-image: url("/img/colo_logo.png");
 	/*filter: blur(0.6px);*/
 }
