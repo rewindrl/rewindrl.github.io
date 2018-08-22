@@ -565,7 +565,7 @@ a.btn.btn-primary.my-btn.grey.patreon:hover{
 		display: none;
 	}
 	#tf-home {
-		background: url("/img/phoneheader.jpg");
+		/*background: url("/img/phoneheader.jpg");*/
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
