@@ -28,7 +28,7 @@ function updateTime() {
             $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(16).minute(30).second(0).millisecond(500)).toString() + " until signups close for the first qualifier of <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a>.)");
         }
         else if (timenow.hour() < 18) {
-            $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(18).minute(00).second(0).millisecond(500)).toString() + " until the first qualifier of <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a>begins!)");
+            $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(18).minute(00).second(0).millisecond(500)).toString() + " until the first qualifier of <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a> begins!)");
         }
         else {
             $("#countwrap").html("The first qualifier for <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a> has begun!");
@@ -39,7 +39,7 @@ function updateTime() {
             $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(16).minute(30).second(0).millisecond(500)).toString() + " until the second qualifier of <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a>.)");
         }
         else if (timenow.hour() < 18) {
-            $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(18).minute(00).second(0).millisecond(500)).toString() + " until the second qualifier of <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a>begins!)");
+            $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(18).minute(00).second(0).millisecond(500)).toString() + " until the second qualifier of <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a> begins!)");
         }
         else {
             $("#countwrap").html("The second qualifier for <a href='https://smash.gg/tournament/rewind-gaming-presents-the-colosseum/details' target='_blank'>The Colosseum</a> has begun!");
