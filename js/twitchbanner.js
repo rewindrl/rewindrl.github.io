@@ -9,7 +9,7 @@ function updateBanner() {
      success: function(data) {
     	 if(data["data"].length !== 0) {
     	    var streamdata = data["data"][0]
-      	    $("#twitch-banner").html("<p>We're streaming The Colosseum LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
+      	    $("#twitch-banner").html("<p>We're streaming the " + streamdata["title"].slice(0,17) + " LIVE on <a href='http://twitch.tv/RewindRL'>Twitch</a>!</p>");
          }
      }
     });
