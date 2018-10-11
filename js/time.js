@@ -9,20 +9,20 @@ function updateTime() {
     //         $("#countwrap").html("Tonight's 2v2 Showdown has begun!");
     //     }
     // }
-    if (timenow.day() == 5) {
-        if (timenow.hour() < 18 || (timenow.hour() == 18 && timenow.minute() < 30)) {
-            $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(18).minute(30).second(0).millisecond(500)).toString() + " until tonight's 3v3 Weekly.)");
-        }
-        else {
-            $("#countwrap").html("Tonight's 3v3 Weekly has begun!");
-        }
-    }
-    else if (timenow.day() > 5) {
-        $("#countwrap").html("");
-    }
-    else {
-        $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").day("Friday").hour(18).minute(30).second(0).millisecond(500)).toString() + " until the next 3v3 Weekly on " + moment().day("Friday").format("dddd [the] Do [of] MMMM.)"));
-    }
+    // if (timenow.day() == 5) {
+    //     if (timenow.hour() < 18 || (timenow.hour() == 18 && timenow.minute() < 30)) {
+    //         $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").hour(18).minute(30).second(0).millisecond(500)).toString() + " until tonight's 3v3 Weekly.)");
+    //     }
+    //     else {
+    //         $("#countwrap").html("Tonight's 3v3 Weekly has begun!");
+    //     }
+    // }
+    // else if (timenow.day() > 5) {
+    //     $("#countwrap").html("");
+    // }
+    // else {
+    //     $("#countwrap").html("(That's  " + countdown(moment().tz("Europe/London").day("Friday").hour(18).minute(30).second(0).millisecond(500)).toString() + " until the next 3v3 Weekly on " + moment().day("Friday").format("dddd [the] Do [of] MMMM.)"));
+    // }
     setTimeout(updateTime, 500);
 }
 updateTime();
